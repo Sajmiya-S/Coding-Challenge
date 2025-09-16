@@ -1,6 +1,6 @@
 # Python program to find the grade of a student
 
-print("\nWelcome to STUDENT GRADE FINDER\n*******************************c\n Enter your marks\n")
+print("\nWelcome to STUDENT GRADE FINDER\n*******************************\n Enter your marks\n")
 mark1 = int(input("Subject 1: \t"))
 mark2 = int(input("Subject 2: \t"))
 mark3 = int(input("Subject 3: \t"))
@@ -24,4 +24,5 @@ elif percentage >= 60 and percentage < 70:
 elif percentage >= 50 and percentage > 60:
     print("You have D grade\n")
 else:
+
     print("Oops..! You have F grade\n")
